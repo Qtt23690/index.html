@@ -67,7 +67,7 @@
 <body>
 
 <header>
-  <h1>Tư vấn & Hỗ trợ Giấy phép Hành nghề Khám chữa bệnh</h1>
+  <h1>Tư vấn & Hỗ trợ cấp Giấy phép Hành nghề Khám chữa bệnh</h1>
   <p>Chuyên nghiệp - Nhanh chóng - Uy tín</p>
 </header>
 
@@ -103,6 +103,7 @@
     <li>Sơ yếu lý lịch (theo mẫu)</li>
     <li>Giấy khám sức khỏe</li>
     <li>Chứng chỉ hành nghề (nếu có)</li>
+    <li>Hai ảnh nền trắng 04x06cm được chụp không quá 6 tháng</li>
   </ul>
 </section>
 
@@ -115,6 +116,9 @@
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" placeholder="email@domain.com" required>
 
+    <label for="số điện thoạt">Số điện thoại:</label>
+    <input type="số điện thoạt" id="số điện thoạt" name="phone" placeholder="098xxx" required>
+    
     <label for="message">Nội dung cần hỗ trợ:</label>
     <textarea id="message" name="message" rows="5" placeholder="Tôi muốn được tư vấn về..." required></textarea>
 
